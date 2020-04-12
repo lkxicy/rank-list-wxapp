@@ -1,0 +1,114 @@
+
+.status_bar.data-v-2543283a {
+	height: 25px;
+	width: 100%;
+}
+.comment.data-v-2543283a {
+	margin-top: 15%;
+}
+.comment .title.data-v-2543283a {
+	float: left;
+	height: 110rpx;
+	width: 80%;
+	margin-left: 3%;
+	font-size: 36rpx;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+	margin-right: 2%;
+}
+.comment .title .album-url.data-v-2543283a {
+	float: left;
+	margin-right: 5%;
+}
+.comment .title .album.data-v-2543283a {
+	color: #aaa;
+	font-size: 30rpx;
+	white-space: nowrap;
+}
+.comment .box-left.data-v-2543283a {
+	float: left;
+	margin-top: 10%;
+	margin-left: 3%;
+	width: 43%;
+	height: 708rpx;
+}
+.comment .box-left .content.data-v-2543283a {
+	float: left;
+	text-align: center;
+	height: 548rpx;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	white-space: pre-wrap;
+}
+.comment .box-left .switch.data-v-2543283a {
+	float: right;
+	margin-right: 10%;
+}
+.comment .line.data-v-2543283a {
+	margin-left: 3.5%;
+	float: left;
+	border-right: 2rpx solid #ddd;
+	height: 400rpx;
+	margin-top: 20%;
+}
+.comment .box-right.data-v-2543283a {
+	float: right;
+	margin-top: 5%;
+	width: 46%;
+	height: 200rpx;
+	margin-right: 0rpx;
+}
+.comment .box-right .speaker.data-v-2543283a {
+	margin-right: 5%;
+	overflow: auto;
+	white-space: nowrap;
+	height: 80rpx;
+	width: 90%;
+}
+.comment .box-right .speaker .photo.data-v-2543283a {
+	text-align: center;
+	font-size: 32rpx;
+	vertical-align: middle;
+	border-radius: 50%;
+	margin-right: 2%;
+}
+.comment .box-right .like.data-v-2543283a {
+	font-size: 30rpx;
+	color: #aaa;
+	float: right;
+	margin-right: 8%;
+	height: 60rpx;
+	overflow: auto;
+	white-space: nowrap;
+}
+.comment .box-right .content.data-v-2543283a {
+	float: right;
+	color: #808080;
+	height: 500rpx;
+	width: 100%;
+	font-weight: 100;
+	font-size: 26rpx;
+	margin-top: 2%;
+	text-align: right;
+	white-space: pre-wrap;
+	margin-right: 4%;
+}
+.comment .btn.data-v-2543283a {
+	position: fixed;
+	bottom: 5%;
+	width: 80%;
+	margin-left: 7%;
+	padding: 3%;
+	border: #97DCF7 6rpx solid;
+	border-radius: 60rpx;
+}
+.mplayer.data-v-2543283a:active {
+	background-color: #a8a8a8;
+}
+.comment .list.data-v-2543283a {
+	overflow: auto;
+	white-space: nowrap;
+}
+

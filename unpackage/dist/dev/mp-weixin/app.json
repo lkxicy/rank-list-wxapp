@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/About/About",
+    "pages/ComCollect/ComCollect",
+    "pages/Rank/Rank",
+    "pages/Details/Details"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1685a9",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "iconPath": "static/img/热评_before.png",
+        "selectedIconPath": "static/img/热评_after.png",
+        "text": "神评论"
+      },
+      {
+        "pagePath": "pages/Rank/Rank",
+        "iconPath": "static/img/排行榜_before.png",
+        "selectedIconPath": "static/img/排行榜_after.png",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/About/About",
+        "iconPath": "static/img/我的_before.png",
+        "selectedIconPath": "static/img/我的_after.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "permission": {},
+  "requiredBackgroundModes": [
+    "audio"
+  ],
+  "usingComponents": {},
+  "sitemapLocation": "sitemap23.json"
+}

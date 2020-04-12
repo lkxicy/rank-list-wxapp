@@ -1,0 +1,83 @@
+
+.weui-switch {
+		position:relative;
+        display: block;
+        position: relative;
+        width: 152px;
+        height: 24px;
+		border: 1px solid #C0C0C0;
+        outline: 0;
+        border-radius: 16px;
+        box-sizing: border-box;
+        background-color: #DFDFDF;
+        -webkit-transition: background-color 0.1s, border 0.1s;
+        transition: background-color 0.1s, border 0.1s;
+        cursor: pointer;
+}
+.weui-switch:before {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50px;
+        height: 22px;
+        border-radius: 15px;
+        background-color: #FDFDFD;
+        -webkit-transition: -webkit-transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+        transition: -webkit-transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+        transition: transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+        transition: transform 0.35s cubic-bezier(0.45, 1, 0.4, 1), -webkit-transform 0.35s cubic-bezier(0.45, 1, 0.4, 1);
+}
+.weui-switch:after {
+        content: " ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 22px;
+        height: 22px;
+        border-radius: 15px;
+        background-color: #FFFFFF;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+        -webkit-transition: -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+        transition: -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+        transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+        transition: transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35), -webkit-transform 0.35s cubic-bezier(0.4, 0.4, 0.25, 1.35);
+}
+.weui-switch-on {
+		border-color: #353535;
+        background-color: #1AAD19;
+}
+	
+    /* 背景颜色设计 */
+.weui-switch-on:before {
+        border-color: #353535;
+		background-color: #1685a9;
+}
+.weui-switch-on:after {
+		border-color: #fcc038;
+        -webkit-transform: translateX(66rpx);
+                transform: translateX(66rpx);
+}
+.switch-checked {
+		width:100%;
+		height:100%;
+		position:absolute;
+		padding:0 5px;
+		line-height:20px;
+		color:#FFF;
+		-webkit-user-select:none;
+		        user-select:none;
+}
+.switch-ischecked {
+		width:100%;
+		height:100%;
+		position:absolute;
+		padding:0 5px;
+		right:2px;
+		line-height:22px;
+		color:#7A7A7A;
+		text-align:right;
+		-webkit-user-select:none;
+		        user-select:none;
+}
+

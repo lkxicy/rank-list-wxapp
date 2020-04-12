@@ -1,0 +1,34 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*每个页面公共css */
+
+
+page {
+    margin: 0;
+}
+
+._a {
+    text-decoration: none;
+}
+
+._li {
+    list-style: none;
+}
+
+.htm {
+    margin-bottom: 55px;
+}
+

@@ -1,0 +1,16 @@
+
+page{
+	background-color: #f3f9f1;
+}
+.title{
+  font-weight: 700;
+  font-size: 38rpx;
+  color: #aa5500;
+  margin-bottom: 20rpx;
+}
+.normal{
+	font-size: 28rpx;
+	color:#424c50;
+}
+
+

@@ -1,0 +1,1 @@
+<view><block wx:if="{{showTips}}"><view class="tipsWrap"><view class="arrow"></view><view class="tipsContent"><text>添加到我的小程序，下次使用更便捷</text><text data-event-opts="{{[['tap',[['closeTips']]]]}}" class="closeIcon" bindtap="__e">X</text></view></view></block></view>
